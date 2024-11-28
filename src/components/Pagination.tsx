@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pagination.css';
 
-function Pagination({ recordsPerPage, totalRecords, paginate, currentPage }) {
+function Pagination({ recordsPerPage, totalRecords, paginate, currentPage }: any) {
     const pageNumbers = [];
     const totalPages = Math.ceil(totalRecords / recordsPerPage);
     const maxPageNumbersToShow = 5;

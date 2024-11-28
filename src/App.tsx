@@ -37,7 +37,7 @@ function App() {
     const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
     const currentProjects = projects?.slice(indexOfFirstRecord, indexOfLastRecord);
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const paginate = (pageNumber: any) => setCurrentPage(pageNumber);
 
     return (
         <div className="App">
